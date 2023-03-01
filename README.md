@@ -1,3 +1,9 @@
+# README
+
+Кастомная версия: https://github.com/veks/button-visually-impaired-javascript
+
+[История изменений](CHANGELOG.md)
+
 # Button visually impaired
 
 Button visually impaired - is a plugin that automatically changes the visually impaired version of your site. The panel
