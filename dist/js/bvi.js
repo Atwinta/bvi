@@ -1042,7 +1042,7 @@
     var time = now.getTime();
     time += 24 * 60 * 60 * 1000;
     now.setTime(time);
-    document.cookie = "bvi_".concat(name, "=").concat(value, ";path=/;expires=").concat(now.toUTCString(), ";domain=").concat(location.host);
+    document.cookie = "bvi_".concat(name, "=").concat(value, ";path=/;expires=").concat(now.toUTCString(), ";domain=").concat(location.hostname);
   };
   var getCookie = function getCookie() {
     var name = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
@@ -1058,7 +1058,7 @@
   };
   var removeCookie = function removeCookie() {
     var name = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
-    document.cookie = "bvi_".concat(name, "=;path=/;expires=Thu, 01 Jan 1970 00:00:01 GMT;domain=").concat(location.host);
+    document.cookie = "bvi_".concat(name, "=;path=/;expires=Thu, 01 Jan 1970 00:00:01 GMT;domain=").concat(location.hostname);
   };
 
   /**
