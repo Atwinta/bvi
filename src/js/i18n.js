@@ -1,7 +1,7 @@
 /**
  * --------------------------------------------------------------------------
  * Button visually impaired (v1.0.0): i18n.js
- * Licensed under MIT (https://github.com/veks/button-visually-impaired-javascript/blob/master/LICENSE)
+ * Licensed under MIT (https://github.com/veks/button-visually-impaired-javascript/blob/master/LICENSE.md)
  * --------------------------------------------------------------------------
  */
 
@@ -9,30 +9,28 @@ const lang = {
   'ru-RU': {
     'text': {
       'fontSize': 'Размер шрифта',
-      'sitColors': 'Цвета сайта',
+      'siteColors': 'Цвета сайта',
       'images': 'Изображения',
-      'sound': 'Звук',
+      'speech': 'Синтез речи',
       'settings': 'Настройки',
       'regularVersionOfTheSite': 'Обычная версия сайта',
-      'lineSpacing': 'Межстрочный интервал',
-      'standard': 'Стандартный',
-      'middle': 'Средний',
-      'large': 'Большой',
-      'spacingBetweenLetters': 'Интервал между буквами',
+      'letterSpacing': 'Межбуквенное расстояние',
+      'normal': 'Стандартный',
+      'average': 'Средний',
+      'big': 'Большой',
+      'lineHeight': 'Межстрочный интервал',
       'font': 'Шрифт',
-      'sansSerif': 'Без засечек',
-      'serif': 'С засечками',
-      'built-inElements': 'Встроенные элементы (Видео, карты и тд.)',
+      'arial': 'Без засечек',
+      'times': 'С засечками',
+      'builtElements': 'Встроенные элементы (Видео, карты и тд.)',
       'on': 'Включить',
       'off': 'Выключить',
-      'resetSettings': 'Сбросить настройки',
+      'reset': 'Сбросить настройки',
       'plural_0': 'пиксель',
       'plural_1': 'пекселя',
       'plural_2': 'пикселей',
     },
     'voice': {
-      'panelOn': 'Версия сайта для слабови́дящий',
-      'panelOff': 'Обычная версия сайта',
       'fontSizePlus': 'Размер шрифта увели́чен',
       'fontSizeMinus': 'Размер шрифта уме́ньшен',
       'siteColorBlackOnWhite': 'Цвет сайта черным по белому',
@@ -41,77 +39,79 @@ const lang = {
       'siteColorBeigeBrown': 'Цвет сайта кори́чневым по бе́жевому',
       'siteColorGreenOnDarkBrown': 'Цвет сайта зеленым по тёмно-коричневому',
       'imagesOn': 'Изображения включены',
-      'imagesOF': 'Изображения выключены',
+      'imagesOFF': 'Изображения выключены',
       'imagesGrayscale': 'Изображения чёрно-белые',
       'speechOn': 'Синтез речи включён',
       'speechOff': 'Синтез речи вы́ключен',
-      'lineHeightStandard': 'Межстрочный интервал стандартный',
-      'lineHeightMiddle': 'Межстрочный интервал средний',
-      'lineHeightLarge': 'Межстрочный интервал большой',
-      'LetterSpacingStandard': 'Интервал между буквами стандартный',
-      'LetterSpacingMiddle': 'Интервал между буквами средний',
-      'LetterSpacingLarge': 'Интервал между буквами большой',
-      'fontSansSerif': 'Шрифт без засечек',
-      'fontSerif': 'Шрифт с засечками',
-      'built-inElementsOn': 'Встроенные элементы включены',
-      'built-inElementsOFF': 'Встроенные элементы выключены',
+      'lineHeightNormal': 'Межстрочный интервал стандартный',
+      'lineHeightAverage': 'Межстрочный интервал средний',
+      'lineHeightBig': 'Межстрочный интервал большой',
+      'LetterSpacingNormal': 'Интервал между буквами стандартный',
+      'LetterSpacingAverage': 'Интервал между буквами средний',
+      'LetterSpacingBig': 'Интервал между буквами большой',
+      'fontArial': 'Шрифт без засечек',
+      'fontTimes': 'Шрифт с засечками',
+      'builtElementsOn': 'Встроенные элементы включены',
+      'builtElementsOFF': 'Встроенные элементы выключены',
       'resetSettings': 'Установлены настройки по умолча́нию',
       'panelShow': 'Панель открыта',
       'panelHide': 'Панель скрыта',
+      'panelOn': 'Версия сайта для слабови́дящий',
+      'panelOff': 'Обычная версия сайта',
     }
   },
   'en-US': {
     'text': {
-      'panelOn': 'Site version for visually impaired',
-      'panelOff': 'Regular version of the site',
       'fontSize': 'Font size',
-      'sitColors': 'Site colors',
+      'siteColors': 'Site colors',
       'images': 'Images',
-      'sound': 'Sound',
+      'speech': 'Speech synthesis',
       'settings': 'Settings',
-      'regularVersionOfTheSite': 'Regular version of the site',
-      'lineSpacing': 'Line spacing',
-      'standard': 'Standard',
-      'middle': 'Middle',
-      'large': 'Large',
-      'spacingBetweenLetters': 'Spacing between letters',
-      'font': 'Font',
-      'sansSerif': 'Sans serif',
-      'serif': 'Serif',
-      'built-inElements': 'Built-in elements (Videos, maps, etc.)',
-      'on': 'On',
-      'off': 'Off',
-      'resetSettings': 'Reset settings',
+      'regularVersionOfTheSite': 'Regular version Of The site',
+      'letterSpacing': 'Letter spacing',
+      'normal': 'Single',
+      'average': 'One and a half',
+      'big': 'Double',
+      'lineHeight': 'Line spacing',
+      'font':'Font',
+      'arial': 'Sans Serif - Arial',
+      'times': 'Serif - Times New Roman',
+      'builtElements': 'Include inline elements (Videos, maps, etc.)',
+      'on': 'Enable',
+      'off': 'Disabled',
+      'reset': 'Reset settings',
       'plural_0': 'pixel',
-      'plural_1': 'pixel',
-      'plural_2': 'pixel',
+      'plural_1': 'pixels',
+      'plural_2': 'pixels',
     },
     'voice': {
       'fontSizePlus': 'Font size increased',
-      'fontSizeMinus': 'Minus font size',
+      'fontSizeMinus': 'Font size reduced',
       'siteColorBlackOnWhite': 'Site color black on white',
       'siteColorWhiteOnBlack': 'Site color white on black',
       'siteColorDarkBlueOnBlue': 'Site color dark blue on cyan',
       'siteColorBeigeBrown': 'SiteColorBeigeBrown',
       'siteColorGreenOnDarkBrown': 'Site color green on dark brown',
-      'imagesOn': 'Images enabled',
-      'imagesOF': 'Images disabled',
-      'imagesGrayscale': 'Images are black and white',
-      'speechOn': 'Synthesis of speech enabled',
-      'speechOff': 'Synthesis of speech is disabled',
-      'lineHeightStandard': 'Line spacing standard',
-      'lineHeightMiddle': 'Line spacing is average',
-      'lineHeightLarge': 'Line spacing is large',
-      'LetterSpacingStandard': 'Standard letter spacing',
-      'LetterSpacingMiddle': 'Letter spacing is average',
-      'LetterSpacingLarge': 'Large letter spacing',
-      'fontSansSerif': 'Sans serif font',
-      'fontSerif': 'Serif font',
-      'built-inElementsOn': 'Built-in elements are enabled',
-      'built-inElementsOFF': 'Built-in elements are disabled',
+      'imagesOn': 'Images enable',
+      'imagesOFF': 'Images disabled',
+      'imagesGrayscale': 'Images gray scale',
+      'speechOn': 'Synthesis speech enable',
+      'speechOff': 'Synthesis speech disabled',
+      'lineHeightNormal': 'Line spacing single',
+      'lineHeightAverage': 'Line spacing one and a half',
+      'lineHeightBig': 'Line spacing double',
+      'LetterSpacingNormal': 'Letter spacing single',
+      'LetterSpacingAverage': 'Letter spacing one and a half',
+      'LetterSpacingBig': 'Letter spacing letter double',
+      'fontArial': 'Sans Serif - Arial',
+      'fontTimes': 'Serif - Times New Roman',
+      'builtElementsOn': 'Include inline elements are enabled',
+      'builtElementsOFF': 'Include inline elements are disabled',
       'resetSettings': 'Default settings have been set',
       'panelShow': 'Panel show',
       'panelHide': 'Panel hide',
+      'panelOn': 'Site version for visually impaired',
+      'panelOff': 'Regular version of the site',
     }
   }
 }
@@ -128,28 +128,6 @@ class I18n {
   v(key) {
     return lang[this._config.lang]['voice'][key]
   }
-
-  /*_readFile(url) {
-    const request = new Request(url, {
-      method: "GET",
-      headers: {
-        'Content-Type': 'application/json',
-        'Accept': 'application/json'
-      },
-      cache: 'default'
-    })
-    return fetch(request).then(response => {
-      if (response.ok) {
-        return response.json()
-      } else {
-        throw Error('Error')
-      }
-    }).then(data => {
-      return data
-    }).catch(error => {
-      console.log(error)
-    });
-  }*/
 }
 
 export default I18n
