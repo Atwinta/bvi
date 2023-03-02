@@ -256,7 +256,7 @@ body .bvi-body[data-bvi-theme=white]:not(.bvi-no-styles) {
   box-shadow: none !important;
   text-shadow: none !important;
 }
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) {
   background-color: #ffffff !important;
   color: #000000 !important;
   fill: #000000 !important;
@@ -264,69 +264,69 @@ body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) {
   box-shadow: none !important;
   text-shadow: none !important;
 }
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) .bvi-speech-link,
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) .bvi-speech-text {
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) .bvi-speech-link,
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) .bvi-speech-text {
   border-color: #000000;
 }
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) .bvi-link:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) .bvi-link:not(.bvi-no-styles) {
   color: #000000 !important;
   background-color: transparent !important;
   text-underline: none !important;
   outline: 0 !important;
   text-decoration: none !important;
 }
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) .bvi-link:not(.bvi-no-styles).disabled {
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) .bvi-link:not(.bvi-no-styles).disabled {
   color: rgba(0, 0, 0, 0.5) !important;
   border: 1px solid rgba(0, 0, 0, 0.5) !important;
   pointer-events: none;
   cursor: no-drop;
   text-decoration: none !important;
 }
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) .bvi-link:not(.bvi-no-styles).disabled:focus {
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) .bvi-link:not(.bvi-no-styles).disabled:focus {
   color: rgba(0, 0, 0, 0.5) !important;
   border: 1px solid rgba(0, 0, 0, 0.5) !important;
   text-underline: none !important;
   text-decoration: none !important;
 }
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) .bvi-link:not(.bvi-no-styles):hover {
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) .bvi-link:not(.bvi-no-styles):hover {
   color: #ffffff !important;
   background-color: #000000 !important;
   text-underline: none !important;
   text-decoration: none !important;
 }
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) .bvi-link:not(.bvi-no-styles):focus {
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) .bvi-link:not(.bvi-no-styles):focus {
   color: #000000 !important;
   background-color: #ffffff !important;
   text-underline: none !important;
   text-decoration: none !important;
 }
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) :checked:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) :default:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) :disabled:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) :empty:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) :enabled:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) :first-child:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) :first-of-type:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) :focus:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) :indeterminate:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) :hover:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) :last-child:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) :last-of-type:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) :link:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) :nth-last-child:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) :nth-last-of-type:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) :nth-of-type:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) :only-child:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) :only-of-type:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) :optional:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) :read-write:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) :required:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) :root:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) :target:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) :valid:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) :visited:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) :first-child:first-letter:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) :default:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) :checked:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) :default:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) :disabled:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) :empty:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) :enabled:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) :first-child:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) :first-of-type:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) :focus:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) :indeterminate:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) :hover:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) :last-child:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) :last-of-type:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) :link:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) :nth-last-child:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) :nth-last-of-type:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) :nth-of-type:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) :only-child:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) :only-of-type:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) :optional:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) :read-write:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) :required:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) :root:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) :target:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) :valid:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) :visited:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) :first-child:first-letter:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) :default:not(.bvi-no-styles) {
   background-color: #ffffff !important;
   box-shadow: none !important;
   text-shadow: none !important;
@@ -334,56 +334,56 @@ body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) :default:not(.bvi-no-
   color: #000000 !important;
   fill: #000000 !important;
 }
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles)::after:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path)::after:not(.bvi-no-styles) {
   background-color: rgba(255, 255, 255, 0) !important;
   color: #000000 !important;
   box-shadow: none !important;
   text-shadow: none !important;
   border-color: transparent !important;
 }
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles)::before:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path)::before:not(.bvi-no-styles) {
   background-color: rgba(255, 255, 255, 0) !important;
   color: #000000 !important;
   box-shadow: none !important;
   text-shadow: none !important;
   border-color: transparent !important;
 }
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles)::selection:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path)::selection:not(.bvi-no-styles) {
   background-color: #000000 !important;
   color: #ffffff !important;
 }
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) a:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) a:not(.bvi-no-styles) {
   outline: 0 !important;
   color: #000000 !important;
   background-color: transparent !important;
 }
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) a:not(.bvi-no-styles).active {
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) a:not(.bvi-no-styles).active {
   color: #000000 !important;
   background-color: #ffffff !important;
 }
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) a:not(.bvi-no-styles):hover:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) a:not(.bvi-no-styles):hover:not(.bvi-no-styles) {
   color: #ffffff !important;
   background-color: #000000 !important;
 }
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) a:not(.bvi-no-styles):hover:not(.bvi-no-styles):after {
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) a:not(.bvi-no-styles):hover:not(.bvi-no-styles):after {
   background-color: rgba(255, 255, 255, 0) !important;
   color: #ffffff !important;
   border-color: transparent !important;
 }
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) a:not(.bvi-no-styles):hover:not(.bvi-no-styles):before {
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) a:not(.bvi-no-styles):hover:not(.bvi-no-styles):before {
   background-color: rgba(255, 255, 255, 0) !important;
   color: #ffffff !important;
   border-color: transparent !important;
 }
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) button:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) input[type=submit]:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) input[type=button]:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) button[type=submit]:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) button[type=button]:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) button:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) input[type=submit]:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) input[type=button]:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) button[type=submit]:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) button[type=button]:not(.bvi-no-styles) {
   color: #ffffff !important;
   background-color: #000000 !important;
 }
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) button:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) input[type=submit]:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) input[type=button]:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) button[type=submit]:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) button[type=button]:not(.bvi-no-styles).active {
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) button:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) input[type=submit]:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) input[type=button]:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) button[type=submit]:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) button[type=button]:not(.bvi-no-styles).active {
   color: #ffffff !important;
   background-color: #000000 !important;
 }
-body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) button:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) input[type=submit]:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) input[type=button]:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) button[type=submit]:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles) button[type=button]:not(.bvi-no-styles):hover {
+body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) button:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) input[type=submit]:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) input[type=button]:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) button[type=submit]:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=white] *:not(.bvi-no-styles):not(svg):not(path) button[type=button]:not(.bvi-no-styles):hover {
   color: #ffffff !important;
   background-color: #000000 !important;
 }
@@ -395,7 +395,7 @@ body .bvi-body[data-bvi-theme=black]:not(.bvi-no-styles) {
   box-shadow: none !important;
   text-shadow: none !important;
 }
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) {
   background-color: #000000 !important;
   color: #ffffff !important;
   fill: #ffffff !important;
@@ -403,69 +403,69 @@ body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) {
   box-shadow: none !important;
   text-shadow: none !important;
 }
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) .bvi-speech-link,
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) .bvi-speech-text {
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) .bvi-speech-link,
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) .bvi-speech-text {
   border-color: #ffffff;
 }
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) .bvi-link:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) .bvi-link:not(.bvi-no-styles) {
   color: #ffffff !important;
   background-color: transparent !important;
   text-underline: none !important;
   outline: 0 !important;
   text-decoration: none !important;
 }
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) .bvi-link:not(.bvi-no-styles).disabled {
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) .bvi-link:not(.bvi-no-styles).disabled {
   color: rgba(255, 255, 255, 0.5) !important;
   border: 1px solid rgba(255, 255, 255, 0.5) !important;
   pointer-events: none;
   cursor: no-drop;
   text-decoration: none !important;
 }
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) .bvi-link:not(.bvi-no-styles).disabled:focus {
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) .bvi-link:not(.bvi-no-styles).disabled:focus {
   color: rgba(255, 255, 255, 0.5) !important;
   border: 1px solid rgba(255, 255, 255, 0.5) !important;
   text-underline: none !important;
   text-decoration: none !important;
 }
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) .bvi-link:not(.bvi-no-styles):hover {
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) .bvi-link:not(.bvi-no-styles):hover {
   color: #000000 !important;
   background-color: #ffffff !important;
   text-underline: none !important;
   text-decoration: none !important;
 }
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) .bvi-link:not(.bvi-no-styles):focus {
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) .bvi-link:not(.bvi-no-styles):focus {
   color: #ffffff !important;
   background-color: #000000 !important;
   text-underline: none !important;
   text-decoration: none !important;
 }
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) :checked:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) :default:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) :disabled:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) :empty:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) :enabled:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) :first-child:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) :first-of-type:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) :focus:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) :indeterminate:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) :hover:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) :last-child:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) :last-of-type:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) :link:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) :nth-last-child:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) :nth-last-of-type:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) :nth-of-type:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) :only-child:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) :only-of-type:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) :optional:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) :read-write:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) :required:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) :root:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) :target:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) :valid:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) :visited:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) :first-child:first-letter:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) :default:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) :checked:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) :default:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) :disabled:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) :empty:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) :enabled:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) :first-child:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) :first-of-type:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) :focus:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) :indeterminate:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) :hover:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) :last-child:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) :last-of-type:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) :link:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) :nth-last-child:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) :nth-last-of-type:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) :nth-of-type:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) :only-child:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) :only-of-type:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) :optional:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) :read-write:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) :required:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) :root:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) :target:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) :valid:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) :visited:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) :first-child:first-letter:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) :default:not(.bvi-no-styles) {
   background-color: #000000 !important;
   box-shadow: none !important;
   text-shadow: none !important;
@@ -473,56 +473,56 @@ body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) :default:not(.bvi-no-
   color: #ffffff !important;
   fill: #ffffff !important;
 }
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles)::after:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path)::after:not(.bvi-no-styles) {
   background-color: rgba(255, 255, 255, 0) !important;
   color: #ffffff !important;
   box-shadow: none !important;
   text-shadow: none !important;
   border-color: transparent !important;
 }
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles)::before:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path)::before:not(.bvi-no-styles) {
   background-color: rgba(255, 255, 255, 0) !important;
   color: #ffffff !important;
   box-shadow: none !important;
   text-shadow: none !important;
   border-color: transparent !important;
 }
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles)::selection:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path)::selection:not(.bvi-no-styles) {
   background-color: #ffffff !important;
   color: #000000 !important;
 }
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) a:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) a:not(.bvi-no-styles) {
   outline: 0 !important;
   color: #ffffff !important;
   background-color: transparent !important;
 }
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) a:not(.bvi-no-styles).active {
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) a:not(.bvi-no-styles).active {
   color: #ffffff !important;
   background-color: #000000 !important;
 }
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) a:not(.bvi-no-styles):hover:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) a:not(.bvi-no-styles):hover:not(.bvi-no-styles) {
   color: #000000 !important;
   background-color: #ffffff !important;
 }
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) a:not(.bvi-no-styles):hover:not(.bvi-no-styles):after {
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) a:not(.bvi-no-styles):hover:not(.bvi-no-styles):after {
   background-color: rgba(255, 255, 255, 0) !important;
   color: #000000 !important;
   border-color: transparent !important;
 }
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) a:not(.bvi-no-styles):hover:not(.bvi-no-styles):before {
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) a:not(.bvi-no-styles):hover:not(.bvi-no-styles):before {
   background-color: rgba(255, 255, 255, 0) !important;
   color: #000000 !important;
   border-color: transparent !important;
 }
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) button:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) input[type=submit]:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) input[type=button]:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) button[type=submit]:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) button[type=button]:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) button:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) input[type=submit]:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) input[type=button]:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) button[type=submit]:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) button[type=button]:not(.bvi-no-styles) {
   color: #000000 !important;
   background-color: #ffffff !important;
 }
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) button:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) input[type=submit]:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) input[type=button]:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) button[type=submit]:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) button[type=button]:not(.bvi-no-styles).active {
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) button:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) input[type=submit]:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) input[type=button]:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) button[type=submit]:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) button[type=button]:not(.bvi-no-styles).active {
   color: #000000 !important;
   background-color: #ffffff !important;
 }
-body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) button:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) input[type=submit]:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) input[type=button]:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) button[type=submit]:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles) button[type=button]:not(.bvi-no-styles):hover {
+body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) button:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) input[type=submit]:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) input[type=button]:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) button[type=submit]:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=black] *:not(.bvi-no-styles):not(svg):not(path) button[type=button]:not(.bvi-no-styles):hover {
   color: #000000 !important;
   background-color: #ffffff !important;
 }
@@ -534,7 +534,7 @@ body .bvi-body[data-bvi-theme=blue]:not(.bvi-no-styles) {
   box-shadow: none !important;
   text-shadow: none !important;
 }
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) {
   background-color: #9DD1FF !important;
   color: #063462 !important;
   fill: #063462 !important;
@@ -542,69 +542,69 @@ body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) {
   box-shadow: none !important;
   text-shadow: none !important;
 }
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) .bvi-speech-link,
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) .bvi-speech-text {
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) .bvi-speech-link,
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) .bvi-speech-text {
   border-color: #063462;
 }
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) .bvi-link:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) .bvi-link:not(.bvi-no-styles) {
   color: #063462 !important;
   background-color: transparent !important;
   text-underline: none !important;
   outline: 0 !important;
   text-decoration: none !important;
 }
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) .bvi-link:not(.bvi-no-styles).disabled {
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) .bvi-link:not(.bvi-no-styles).disabled {
   color: rgba(6, 52, 98, 0.5) !important;
   border: 1px solid rgba(6, 52, 98, 0.5) !important;
   pointer-events: none;
   cursor: no-drop;
   text-decoration: none !important;
 }
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) .bvi-link:not(.bvi-no-styles).disabled:focus {
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) .bvi-link:not(.bvi-no-styles).disabled:focus {
   color: rgba(6, 52, 98, 0.5) !important;
   border: 1px solid rgba(6, 52, 98, 0.5) !important;
   text-underline: none !important;
   text-decoration: none !important;
 }
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) .bvi-link:not(.bvi-no-styles):hover {
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) .bvi-link:not(.bvi-no-styles):hover {
   color: #9DD1FF !important;
   background-color: #063462 !important;
   text-underline: none !important;
   text-decoration: none !important;
 }
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) .bvi-link:not(.bvi-no-styles):focus {
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) .bvi-link:not(.bvi-no-styles):focus {
   color: #063462 !important;
   background-color: #9DD1FF !important;
   text-underline: none !important;
   text-decoration: none !important;
 }
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) :checked:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) :default:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) :disabled:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) :empty:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) :enabled:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) :first-child:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) :first-of-type:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) :focus:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) :indeterminate:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) :hover:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) :last-child:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) :last-of-type:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) :link:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) :nth-last-child:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) :nth-last-of-type:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) :nth-of-type:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) :only-child:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) :only-of-type:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) :optional:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) :read-write:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) :required:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) :root:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) :target:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) :valid:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) :visited:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) :first-child:first-letter:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) :default:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) :checked:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) :default:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) :disabled:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) :empty:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) :enabled:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) :first-child:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) :first-of-type:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) :focus:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) :indeterminate:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) :hover:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) :last-child:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) :last-of-type:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) :link:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) :nth-last-child:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) :nth-last-of-type:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) :nth-of-type:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) :only-child:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) :only-of-type:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) :optional:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) :read-write:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) :required:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) :root:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) :target:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) :valid:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) :visited:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) :first-child:first-letter:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) :default:not(.bvi-no-styles) {
   background-color: #9DD1FF !important;
   box-shadow: none !important;
   text-shadow: none !important;
@@ -612,56 +612,56 @@ body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) :default:not(.bvi-no-s
   color: #063462 !important;
   fill: #063462 !important;
 }
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles)::after:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path)::after:not(.bvi-no-styles) {
   background-color: rgba(255, 255, 255, 0) !important;
   color: #063462 !important;
   box-shadow: none !important;
   text-shadow: none !important;
   border-color: transparent !important;
 }
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles)::before:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path)::before:not(.bvi-no-styles) {
   background-color: rgba(255, 255, 255, 0) !important;
   color: #063462 !important;
   box-shadow: none !important;
   text-shadow: none !important;
   border-color: transparent !important;
 }
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles)::selection:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path)::selection:not(.bvi-no-styles) {
   background-color: #063462 !important;
   color: #9DD1FF !important;
 }
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) a:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) a:not(.bvi-no-styles) {
   outline: 0 !important;
   color: #063462 !important;
   background-color: transparent !important;
 }
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) a:not(.bvi-no-styles).active {
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) a:not(.bvi-no-styles).active {
   color: #063462 !important;
   background-color: #9DD1FF !important;
 }
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) a:not(.bvi-no-styles):hover:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) a:not(.bvi-no-styles):hover:not(.bvi-no-styles) {
   color: #9DD1FF !important;
   background-color: #063462 !important;
 }
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) a:not(.bvi-no-styles):hover:not(.bvi-no-styles):after {
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) a:not(.bvi-no-styles):hover:not(.bvi-no-styles):after {
   background-color: rgba(255, 255, 255, 0) !important;
   color: #9DD1FF !important;
   border-color: transparent !important;
 }
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) a:not(.bvi-no-styles):hover:not(.bvi-no-styles):before {
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) a:not(.bvi-no-styles):hover:not(.bvi-no-styles):before {
   background-color: rgba(255, 255, 255, 0) !important;
   color: #9DD1FF !important;
   border-color: transparent !important;
 }
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) button:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) input[type=submit]:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) input[type=button]:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) button[type=submit]:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) button[type=button]:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) button:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) input[type=submit]:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) input[type=button]:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) button[type=submit]:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) button[type=button]:not(.bvi-no-styles) {
   color: #9DD1FF !important;
   background-color: #063462 !important;
 }
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) button:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) input[type=submit]:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) input[type=button]:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) button[type=submit]:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) button[type=button]:not(.bvi-no-styles).active {
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) button:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) input[type=submit]:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) input[type=button]:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) button[type=submit]:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) button[type=button]:not(.bvi-no-styles).active {
   color: #9DD1FF !important;
   background-color: #063462 !important;
 }
-body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) button:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) input[type=submit]:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) input[type=button]:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) button[type=submit]:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles) button[type=button]:not(.bvi-no-styles):hover {
+body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) button:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) input[type=submit]:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) input[type=button]:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) button[type=submit]:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=blue] *:not(.bvi-no-styles):not(svg):not(path) button[type=button]:not(.bvi-no-styles):hover {
   color: #9DD1FF !important;
   background-color: #063462 !important;
 }
@@ -673,7 +673,7 @@ body .bvi-body[data-bvi-theme=brown]:not(.bvi-no-styles) {
   box-shadow: none !important;
   text-shadow: none !important;
 }
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) {
   background-color: #F7F3D6 !important;
   color: #4D4B43 !important;
   fill: #4D4B43 !important;
@@ -681,69 +681,69 @@ body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) {
   box-shadow: none !important;
   text-shadow: none !important;
 }
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) .bvi-speech-link,
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) .bvi-speech-text {
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) .bvi-speech-link,
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) .bvi-speech-text {
   border-color: #4D4B43;
 }
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) .bvi-link:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) .bvi-link:not(.bvi-no-styles) {
   color: #4D4B43 !important;
   background-color: transparent !important;
   text-underline: none !important;
   outline: 0 !important;
   text-decoration: none !important;
 }
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) .bvi-link:not(.bvi-no-styles).disabled {
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) .bvi-link:not(.bvi-no-styles).disabled {
   color: rgba(77, 75, 67, 0.5) !important;
   border: 1px solid rgba(77, 75, 67, 0.5) !important;
   pointer-events: none;
   cursor: no-drop;
   text-decoration: none !important;
 }
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) .bvi-link:not(.bvi-no-styles).disabled:focus {
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) .bvi-link:not(.bvi-no-styles).disabled:focus {
   color: rgba(77, 75, 67, 0.5) !important;
   border: 1px solid rgba(77, 75, 67, 0.5) !important;
   text-underline: none !important;
   text-decoration: none !important;
 }
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) .bvi-link:not(.bvi-no-styles):hover {
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) .bvi-link:not(.bvi-no-styles):hover {
   color: #F7F3D6 !important;
   background-color: #4D4B43 !important;
   text-underline: none !important;
   text-decoration: none !important;
 }
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) .bvi-link:not(.bvi-no-styles):focus {
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) .bvi-link:not(.bvi-no-styles):focus {
   color: #4D4B43 !important;
   background-color: #F7F3D6 !important;
   text-underline: none !important;
   text-decoration: none !important;
 }
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) :checked:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) :default:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) :disabled:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) :empty:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) :enabled:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) :first-child:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) :first-of-type:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) :focus:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) :indeterminate:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) :hover:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) :last-child:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) :last-of-type:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) :link:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) :nth-last-child:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) :nth-last-of-type:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) :nth-of-type:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) :only-child:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) :only-of-type:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) :optional:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) :read-write:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) :required:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) :root:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) :target:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) :valid:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) :visited:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) :first-child:first-letter:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) :default:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) :checked:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) :default:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) :disabled:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) :empty:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) :enabled:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) :first-child:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) :first-of-type:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) :focus:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) :indeterminate:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) :hover:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) :last-child:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) :last-of-type:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) :link:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) :nth-last-child:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) :nth-last-of-type:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) :nth-of-type:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) :only-child:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) :only-of-type:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) :optional:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) :read-write:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) :required:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) :root:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) :target:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) :valid:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) :visited:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) :first-child:first-letter:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) :default:not(.bvi-no-styles) {
   background-color: #F7F3D6 !important;
   box-shadow: none !important;
   text-shadow: none !important;
@@ -751,56 +751,56 @@ body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) :default:not(.bvi-no-
   color: #4D4B43 !important;
   fill: #4D4B43 !important;
 }
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles)::after:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path)::after:not(.bvi-no-styles) {
   background-color: rgba(255, 255, 255, 0) !important;
   color: #4D4B43 !important;
   box-shadow: none !important;
   text-shadow: none !important;
   border-color: transparent !important;
 }
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles)::before:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path)::before:not(.bvi-no-styles) {
   background-color: rgba(255, 255, 255, 0) !important;
   color: #4D4B43 !important;
   box-shadow: none !important;
   text-shadow: none !important;
   border-color: transparent !important;
 }
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles)::selection:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path)::selection:not(.bvi-no-styles) {
   background-color: #4D4B43 !important;
   color: #F7F3D6 !important;
 }
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) a:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) a:not(.bvi-no-styles) {
   outline: 0 !important;
   color: #4D4B43 !important;
   background-color: transparent !important;
 }
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) a:not(.bvi-no-styles).active {
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) a:not(.bvi-no-styles).active {
   color: #4D4B43 !important;
   background-color: #F7F3D6 !important;
 }
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) a:not(.bvi-no-styles):hover:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) a:not(.bvi-no-styles):hover:not(.bvi-no-styles) {
   color: #F7F3D6 !important;
   background-color: #4D4B43 !important;
 }
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) a:not(.bvi-no-styles):hover:not(.bvi-no-styles):after {
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) a:not(.bvi-no-styles):hover:not(.bvi-no-styles):after {
   background-color: rgba(255, 255, 255, 0) !important;
   color: #F7F3D6 !important;
   border-color: transparent !important;
 }
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) a:not(.bvi-no-styles):hover:not(.bvi-no-styles):before {
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) a:not(.bvi-no-styles):hover:not(.bvi-no-styles):before {
   background-color: rgba(255, 255, 255, 0) !important;
   color: #F7F3D6 !important;
   border-color: transparent !important;
 }
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) button:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) input[type=submit]:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) input[type=button]:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) button[type=submit]:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) button[type=button]:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) button:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) input[type=submit]:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) input[type=button]:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) button[type=submit]:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) button[type=button]:not(.bvi-no-styles) {
   color: #F7F3D6 !important;
   background-color: #4D4B43 !important;
 }
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) button:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) input[type=submit]:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) input[type=button]:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) button[type=submit]:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) button[type=button]:not(.bvi-no-styles).active {
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) button:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) input[type=submit]:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) input[type=button]:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) button[type=submit]:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) button[type=button]:not(.bvi-no-styles).active {
   color: #F7F3D6 !important;
   background-color: #4D4B43 !important;
 }
-body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) button:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) input[type=submit]:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) input[type=button]:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) button[type=submit]:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles) button[type=button]:not(.bvi-no-styles):hover {
+body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) button:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) input[type=submit]:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) input[type=button]:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) button[type=submit]:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=brown] *:not(.bvi-no-styles):not(svg):not(path) button[type=button]:not(.bvi-no-styles):hover {
   color: #F7F3D6 !important;
   background-color: #4D4B43 !important;
 }
@@ -812,7 +812,7 @@ body .bvi-body[data-bvi-theme=green]:not(.bvi-no-styles) {
   box-shadow: none !important;
   text-shadow: none !important;
 }
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) {
   background-color: #3B2716 !important;
   color: #A9E44D !important;
   fill: #A9E44D !important;
@@ -820,69 +820,69 @@ body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) {
   box-shadow: none !important;
   text-shadow: none !important;
 }
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) .bvi-speech-link,
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) .bvi-speech-text {
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) .bvi-speech-link,
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) .bvi-speech-text {
   border-color: #A9E44D;
 }
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) .bvi-link:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) .bvi-link:not(.bvi-no-styles) {
   color: #A9E44D !important;
   background-color: transparent !important;
   text-underline: none !important;
   outline: 0 !important;
   text-decoration: none !important;
 }
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) .bvi-link:not(.bvi-no-styles).disabled {
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) .bvi-link:not(.bvi-no-styles).disabled {
   color: rgba(169, 228, 77, 0.5) !important;
   border: 1px solid rgba(169, 228, 77, 0.5) !important;
   pointer-events: none;
   cursor: no-drop;
   text-decoration: none !important;
 }
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) .bvi-link:not(.bvi-no-styles).disabled:focus {
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) .bvi-link:not(.bvi-no-styles).disabled:focus {
   color: rgba(169, 228, 77, 0.5) !important;
   border: 1px solid rgba(169, 228, 77, 0.5) !important;
   text-underline: none !important;
   text-decoration: none !important;
 }
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) .bvi-link:not(.bvi-no-styles):hover {
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) .bvi-link:not(.bvi-no-styles):hover {
   color: #3B2716 !important;
   background-color: #A9E44D !important;
   text-underline: none !important;
   text-decoration: none !important;
 }
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) .bvi-link:not(.bvi-no-styles):focus {
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) .bvi-link:not(.bvi-no-styles):focus {
   color: #A9E44D !important;
   background-color: #3B2716 !important;
   text-underline: none !important;
   text-decoration: none !important;
 }
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) :checked:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) :default:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) :disabled:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) :empty:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) :enabled:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) :first-child:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) :first-of-type:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) :focus:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) :indeterminate:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) :hover:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) :last-child:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) :last-of-type:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) :link:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) :nth-last-child:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) :nth-last-of-type:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) :nth-of-type:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) :only-child:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) :only-of-type:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) :optional:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) :read-write:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) :required:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) :root:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) :target:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) :valid:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) :visited:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) :first-child:first-letter:not(.bvi-no-styles),
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) :default:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) :checked:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) :default:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) :disabled:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) :empty:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) :enabled:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) :first-child:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) :first-of-type:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) :focus:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) :indeterminate:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) :hover:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) :last-child:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) :last-of-type:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) :link:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) :nth-last-child:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) :nth-last-of-type:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) :nth-of-type:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) :only-child:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) :only-of-type:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) :optional:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) :read-write:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) :required:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) :root:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) :target:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) :valid:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) :visited:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) :first-child:first-letter:not(.bvi-no-styles),
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) :default:not(.bvi-no-styles) {
   background-color: #3B2716 !important;
   box-shadow: none !important;
   text-shadow: none !important;
@@ -890,56 +890,56 @@ body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) :default:not(.bvi-no-
   color: #A9E44D !important;
   fill: #A9E44D !important;
 }
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles)::after:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path)::after:not(.bvi-no-styles) {
   background-color: rgba(255, 255, 255, 0) !important;
   color: #A9E44D !important;
   box-shadow: none !important;
   text-shadow: none !important;
   border-color: transparent !important;
 }
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles)::before:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path)::before:not(.bvi-no-styles) {
   background-color: rgba(255, 255, 255, 0) !important;
   color: #A9E44D !important;
   box-shadow: none !important;
   text-shadow: none !important;
   border-color: transparent !important;
 }
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles)::selection:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path)::selection:not(.bvi-no-styles) {
   background-color: #A9E44D !important;
   color: #3B2716 !important;
 }
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) a:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) a:not(.bvi-no-styles) {
   outline: 0 !important;
   color: #A9E44D !important;
   background-color: transparent !important;
 }
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) a:not(.bvi-no-styles).active {
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) a:not(.bvi-no-styles).active {
   color: #A9E44D !important;
   background-color: #3B2716 !important;
 }
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) a:not(.bvi-no-styles):hover:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) a:not(.bvi-no-styles):hover:not(.bvi-no-styles) {
   color: #3B2716 !important;
   background-color: #A9E44D !important;
 }
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) a:not(.bvi-no-styles):hover:not(.bvi-no-styles):after {
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) a:not(.bvi-no-styles):hover:not(.bvi-no-styles):after {
   background-color: rgba(255, 255, 255, 0) !important;
   color: #3B2716 !important;
   border-color: transparent !important;
 }
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) a:not(.bvi-no-styles):hover:not(.bvi-no-styles):before {
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) a:not(.bvi-no-styles):hover:not(.bvi-no-styles):before {
   background-color: rgba(255, 255, 255, 0) !important;
   color: #3B2716 !important;
   border-color: transparent !important;
 }
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) button:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) input[type=submit]:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) input[type=button]:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) button[type=submit]:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) button[type=button]:not(.bvi-no-styles) {
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) button:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) input[type=submit]:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) input[type=button]:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) button[type=submit]:not(.bvi-no-styles), body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) button[type=button]:not(.bvi-no-styles) {
   color: #3B2716 !important;
   background-color: #A9E44D !important;
 }
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) button:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) input[type=submit]:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) input[type=button]:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) button[type=submit]:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) button[type=button]:not(.bvi-no-styles).active {
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) button:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) input[type=submit]:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) input[type=button]:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) button[type=submit]:not(.bvi-no-styles).active, body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) button[type=button]:not(.bvi-no-styles).active {
   color: #3B2716 !important;
   background-color: #A9E44D !important;
 }
-body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) button:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) input[type=submit]:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) input[type=button]:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) button[type=submit]:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles) button[type=button]:not(.bvi-no-styles):hover {
+body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) button:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) input[type=submit]:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) input[type=button]:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) button[type=submit]:not(.bvi-no-styles):hover, body .bvi-body[data-bvi-theme=green] *:not(.bvi-no-styles):not(svg):not(path) button[type=button]:not(.bvi-no-styles):hover {
   color: #3B2716 !important;
   background-color: #A9E44D !important;
 }
