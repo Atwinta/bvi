@@ -2143,9 +2143,6 @@ body .bvi-body .bvi-link-fixed-top {
 body .bvi-body .bvi-hide {
   display: none !important;
 }
-body .bvi-body .bvi-show {
-  display: block !important;
-}
 
 .bvi-images {
   width: 18px;
@@ -2198,6 +2195,10 @@ body .bvi-body .bvi-show {
 .bvi-images.bvi-images-size-32 {
   width: 32px !important;
   height: 32px !important;
+}
+
+body:not(.bvi-active) .bvi-show {
+  display: none !important;
 }
 
 /*# sourceMappingURL=bvi.css.map */
