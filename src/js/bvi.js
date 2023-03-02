@@ -628,6 +628,7 @@ class Bvi {
   }
 
   _remove() {
+    const body = document.body
     let bviPanel = document.querySelector('.bvi-panel')
     let bviBody = document.querySelector('.bvi-body')
     let bviLinkFixedTop = document.querySelector('.bvi-link-fixed-top')
@@ -646,7 +647,11 @@ class Bvi {
 
     this._speech(`${this._i18n.v('panelOff')}`)
 
-    document.body.classList.remove('bvi-active')
+    body.classList.remove('bvi-active')
+
+    body.getAttributeNames().forEach(attr => {
+      attr.indexOf('data-bvi') === 0 && body.removeAttribute(attr)
+    })
 
     getArray(this._elements, element => element.style.display = '')
 
@@ -692,7 +697,9 @@ class Bvi {
   }
 
   _setAttrDataBviBody(name = '', value = '') {
-    document.querySelector('.bvi-body').setAttribute(`data-bvi-${name}`, value)
+    const attr = `data-bvi-${name}`
+    document.querySelector('.bvi-body').setAttribute(attr, value)
+    document.body.setAttribute(attr, value)
   }
 
   _speechPlayer() {
