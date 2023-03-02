@@ -48,7 +48,7 @@
     text-shadow: none !important;
   }
 
-  &[data-bvi-theme='#{$name}'] *:not(.bvi-no-styles):not(svg):not(path) {
+  &[data-bvi-theme='#{$name}'] *:not(.bvi-no-styles):not(svg):not(path):not(ymaps) {
     background-color: $bg !important;
     color: $color !important;
     fill: $color !important;
