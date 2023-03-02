@@ -2201,4 +2201,8 @@ body:not(.bvi-active) .bvi-show {
   display: none !important;
 }
 
+.bvi-active [data-bvi-images=false] .bvi-hide-on-images-hide {
+  display: none !important;
+}
+
 /*# sourceMappingURL=bvi.css.map */
