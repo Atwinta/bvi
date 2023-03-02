@@ -189,13 +189,7 @@
     & button[type="button"]:not(.bvi-no-styles) {
       color: $bg !important;
       background-color: $color !important;
-    }
 
-    & button:hover,
-    & input[type="button"]:hover:not(.bvi-no-styles),
-    & input[type="submit"]:hover:not(.bvi-no-styles),
-    & button[type="submit"]:hover:not(.bvi-no-styles),
-    & button[type="button"]:hover:not(.bvi-no-styles) {
       &.active {
         color: $bg !important;
         background-color: $color !important;
