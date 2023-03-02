@@ -2205,4 +2205,8 @@ body:not(.bvi-active) .bvi-show {
   display: none !important;
 }
 
+.bvi-active [data-bvi-images=grayscale] .bvi-grayscale {
+  filter: grayscale(1);
+}
+
 /*# sourceMappingURL=bvi.css.map */

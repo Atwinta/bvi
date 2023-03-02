@@ -7,6 +7,7 @@
 // Configuration
 @import "variables";
 @import "mixins/body";
+@import "mixins/grayscale";
 
 // Components
 @import "panel";
@@ -14,3 +15,4 @@
 @import "images";
 @import "show";
 @import "hide-on-images-hide";
+@import "grayscale";
