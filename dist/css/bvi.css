@@ -2136,9 +2136,9 @@ body .bvi-body a.bvi-link::after {
 }
 body .bvi-body .bvi-link-fixed-top {
   position: fixed !important;
-  top: 2.5rem !important;
-  right: 1.5rem !important;
-  z-index: 999999 !important;
+  top: 2.5rem;
+  right: 1.5rem;
+  z-index: 999999;
 }
 body .bvi-body .bvi-hide {
   display: none !important;
