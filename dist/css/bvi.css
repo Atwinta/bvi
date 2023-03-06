@@ -2240,4 +2240,20 @@ body:not(.bvi-active) .bvi-show {
   filter: grayscale(1);
 }
 
+.bvi-active .bvi-bordered {
+  border: 1px solid var(--bvi-theme-color);
+}
+
+.bvi-active .bvi-color {
+  color: var(--bvi-theme-color);
+}
+
+.bvi-active .bvi-bg {
+  background: var(--bvi-theme-bgcolor);
+}
+
+.bvi-active .bvi-link_bordered {
+  border-bottom: 1px solid;
+}
+
 /*# sourceMappingURL=bvi.css.map */
