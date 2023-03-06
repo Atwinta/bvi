@@ -2201,8 +2201,8 @@ body:not(.bvi-active) .bvi-show {
   display: none !important;
 }
 
-.bvi-active [data-bvi-images=false] .bvi-hide-on-images-hide,
-.bvi-active[data-bvi-images=false] .bvi-hide-on-images-hide {
+.bvi-active [data-bvi-images=false] .bvi-image-hide,
+.bvi-active[data-bvi-images=false] .bvi-image-hide {
   display: none !important;
 }
 
