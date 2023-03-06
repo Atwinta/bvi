@@ -1,0 +1,13 @@
+@mixin bvi-theme($name, $bg, $color) {
+  .bvi-active[data-bvi-theme='#{$name}'],
+  .bvi-active [data-bvi-theme='#{$name}'] {
+    --bvi-theme-color: #{$color};
+    --bvi-theme-bgcolor: #{$bg};
+  }
+}
+
+@include bvi-theme('white', $theme-bg-white, $theme-color-white);
+@include bvi-theme('black', $theme-bg-black, $theme-color-black);
+@include bvi-theme('blue', $theme-bg-blue, $theme-color-blue);
+@include bvi-theme('brown', $theme-bg-brown, $theme-color-brown);
+@include bvi-theme('green', $theme-bg-green, $theme-color-green);
