@@ -1,5 +1,5 @@
 {
-  "name": "bvi",
+  "name": "@atwinta/bvi",
   "version": "1.1.0",
   "description": "Button visually impaired - is a plugin that automatically changes the visually impaired version of your site. The panel on the site for the visually impaired allows the color scheme of the site, font sizes, the synthesizer reads aloud settings changes. Thanks to it, you can use the functions of the site that meet the needs of people with disabilities.",
   "license": "MIT",
@@ -24,10 +24,6 @@
     "watch-js": "nodemon --watch src/js/ --ext js --exec \"npm-run-all js-compile js-minify-umd\"",
     "watch-css": "nodemon --watch src/scss/ --ext scss --exec \"npm-run-all css-compile\""
   },
-  "files": [
-    "dist/{css,js}/*.{css,js,map}",
-    "src/{js,scss}/*.{js,scss,map}"
-  ],
   "keywords": [
     "accessibility",
     "accessible",
@@ -37,10 +33,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/veks/button-visually-impaired-javascript.git"
+    "url": "https://github.com/Atwinta/bvi"
   },
   "bugs": {
-    "url": "https://github.com/veks/button-visually-impaired-javascript/issues"
+    "url": "https://github.com/Atwinta/bvi"
   },
   "devDependencies": {
     "@babel/core": "^7.14.5",
@@ -67,5 +63,8 @@
   "dependencies": {
     "core-js": "^3.14.0",
     "regenerator-runtime": "^0.13.7"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
