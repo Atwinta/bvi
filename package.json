@@ -63,8 +63,5 @@
   "dependencies": {
     "core-js": "^3.14.0",
     "regenerator-runtime": "^0.13.7"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   }
 }
